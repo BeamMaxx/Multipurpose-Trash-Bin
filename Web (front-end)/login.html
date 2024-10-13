@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTURE of The WASTE</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-col">
+            <form class="form-box login-form">
+                <div class="form-title">
+                    <span>Sign in</span>
+                </div>
+                <div class="input-box">
+                    <button-1 class="btn-5" id="Signin_bu" onclick="window.location.href='front.html'">Sign In</button-1>
+                    <button-1 class="btn-6" id="Register_bu" onclick="window.location.href='registor.html'">Register</button-1>
+                </div>
+            </form>
+            <div id="login01">
+                <input id="display" readonly>
+                <div id="numcir">
+                    <button onclick="appendToDisplay('1')">1</button>
+                    <button onclick="appendToDisplay('2')">2</button>
+                    <button onclick="appendToDisplay('3')">3</button>
+                    <button onclick="appendToDisplay('4')">4</button>
+                    <button onclick="appendToDisplay('5')">5</button>
+                    <button onclick="appendToDisplay('6')">6</button>
+                    <button onclick="appendToDisplay('7')">7</button>
+                    <button onclick="appendToDisplay('8')">8</button>
+                    <button onclick="appendToDisplay('9')">9</button>
+                    <button onclick="ClearToDisplay('c')">C</button>
+                    <button onclick="appendToDisplay('0')">0</button>
+                    <button onclick="removeLastCharacter()"><</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

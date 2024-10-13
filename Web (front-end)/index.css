@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: url("../back.PNG");
+    background-position: center ;
+    background-size: cover;
+    background-repeat: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    line-height: 100px;
+    background: linear-gradient(rgba(39,39,39,1) transparent);
+    z-index: 100;
+    border: 3px solid rgba(255, 2500, 255, 0.3);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    height: 100px;
+}
+.nav-logo p{
+    position: fixed;
+    left: 6%;
+    color: #0f0b0b;
+    font-size: 25px;
+    font-weight: 800;
+}
+.nav-img-container{
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    display: flex;
+    height: 50px;
+}
+.nav-menu ul{
+    position: fixed;
+    right: 15%;
+    display: flex;
+    font-size: 20px;
+}
+.nav-menu ul li{
+    list-style-type: none;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #0f0b0b;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
+.nav-button{
+    position: fixed;
+    right: 2%;
+}
+.nav-button .btn-0{
+    width: 150px;
+    height: 60px;
+    font-weight: 800;
+    background-color: #1d5e96c2;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transtion: .3s ease;
+}
+.top header{;
+    position: relative;
+    top: 7.5cap;
+    left: 30%;
+    color: #0f0b0b;
+    font-size: 30px;
+    font-weight: 900;
+}
+.top2 span{
+    position: relative;
+    top: 8cap;
+    left: 12%;
+    color: #0f0b0b;
+    font-size: 30px;
+    font-weight: 700;
+}
+.nav-img-02{
+    position: absolute;
+    top: 30%;
+    right: 48%;
+    display: flex;
+    height: 50%;
+    weight: auto;
+}
+.form-box-0{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    
+}
